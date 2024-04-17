@@ -1,5 +1,6 @@
 package simstation;
 import mvc.*;
+import javax.swing.*;
 
 public class StatsCommand extends Command {
     public StatsCommand(Model model) {
@@ -7,6 +8,7 @@ public class StatsCommand extends Command {
     }
     public void execute() {
         Simulation s = (Simulation) model;
-        //make a jframe and print stats
+        //String message = "#agents = " + s.getAgents()?? + "clock = " + s.getClock();
+        JOptionPane.showMessageDialog(null, message, "Simulation Stats", JOptionPane.INFORMATION_MESSAGE);
     }
 }
