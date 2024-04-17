@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="434b323b-5b02-4d4f-bda9-38fd932c9ba4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simstation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc/AppFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc/AppPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc/Publisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc/SafeFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc/Subscriber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc/Utilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simstation/Agent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simstation/ResumeCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simstation/SimStationFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simstation/Simulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simstation/SimulationPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simstation/SimulationView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simstation/StartCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simstation/StatsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simstation/StopCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simstation/SuspendCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simstation/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simstation/Agent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,35 +24,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2f7G8ZyIRunvWXZJlBGRMDtm43k" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.SimulationPanel.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/aakas/IdeaProjects/simstation",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/aakas/IdeaProjects/simstation/src/Main.java",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.SimulationPanel.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aakas/IdeaProjects/simstation&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/aakas/IdeaProjects/simstation/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
