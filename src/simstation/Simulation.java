@@ -4,14 +4,23 @@ import java.util.*;
 
 public class Simulation extends Model {
     int clock = 0;
-    List<Agent> agents;
+    private List<Agent> agents;
 
     public int getClock() {
         return clock;
     }
 
+    public Simulation() {
+        agents = new ArrayList<>();
+    }
+
     public List<Agent> getAgents() {
         return agents;
+    }
+
+    public void addAgent(Agent agent) {
+        agents.add(agent);
+        agent.setWorld(this); // Set the world reference for the agent
     }
 
     public void start() {

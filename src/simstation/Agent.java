@@ -3,6 +3,7 @@ package simstation;
 import java.io.*;
 
 public abstract class Agent implements Runnable, Serializable {
+    public int speed;
     String name;
     public Heading heading;
     int xc;
@@ -10,6 +11,7 @@ public abstract class Agent implements Runnable, Serializable {
     boolean suspended = false;
     boolean stopped = false;
     transient protected Thread myThread;
+    protected Simulation world;
 
     //Anson Lau
     public void run() {
@@ -23,6 +25,10 @@ public abstract class Agent implements Runnable, Serializable {
                 e.printStackTrace();
             }
         }
+    }
+
+    public void setWorld(Simulation world) {
+        this.world = world;
     }
 
     public void start() {
