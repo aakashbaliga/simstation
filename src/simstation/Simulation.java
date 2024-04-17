@@ -6,6 +6,14 @@ public class Simulation extends Model {
     int clock = 0;
     List<Agent> agents;
 
+    public int getClock() {
+        return clock;
+    }
+
+    public List<Agent> getAgents() {
+        return agents;
+    }
+
     public void start() {
         for (Agent agent : agents) {
             agent.start();
