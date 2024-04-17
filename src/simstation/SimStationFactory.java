@@ -55,6 +55,11 @@ public class SimStationFactory implements AppFactory {
     public String[] getHelp() {
         return new String[]{
                 //fill when we know what everything does
+                "Start: Begin the simulation.",
+                "Suspend: Pause the simulation.",
+                "Resume: Continue the simulation.",
+                "Stop: End the simulation.",
+                "Stats: Display statistics about the simulation."
         };
     }
 

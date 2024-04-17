@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="434b323b-5b02-4d4f-bda9-38fd932c9ba4" name="Changes" comment="RandomWalkSimulation.java">
-      <change afterPath="$PROJECT_DIR$/src/flocking/FlockingSimulation.java" afterDir="false" />
+    <list default="true" id="434b323b-5b02-4d4f-bda9-38fd932c9ba4" name="Changes" comment="FlockingSimulation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simstation/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simstation/Agent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simstation/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simstation/Simulation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +135,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713327249364</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="FlockingSimulation">
+      <option name="closed" value="true" />
+      <created>1713391384199</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713391384199</updated>
+    </task>
+    <task id="LOCAL-00009" summary="FlockingSimulation">
+      <option name="closed" value="true" />
+      <created>1713391649043</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713391649043</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +164,7 @@
     <MESSAGE value="myThread and methods in Simulation.java" />
     <MESSAGE value="StatsCommand with getAgents and getCLock" />
     <MESSAGE value="RandomWalkSimulation.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="RandomWalkSimulation.java" />
+    <MESSAGE value="FlockingSimulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="FlockingSimulation" />
   </component>
 </project>

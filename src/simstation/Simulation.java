@@ -20,7 +20,7 @@ public class Simulation extends Model {
 
     public void addAgent(Agent agent) {
         agents.add(agent);
-        agent.setWorld(this); // Set the world reference for the agent
+        agent.setWorld(this);
     }
 
     public void start() {
