@@ -2,9 +2,8 @@ package flocking;
 
 import mvc.*;
 import simstation.*;
-import java.awt.*;
-import java.util.Iterator;
 
+//Anson Lau
 class Bird extends Agent {
     private int speed;
 
@@ -12,6 +11,10 @@ class Bird extends Agent {
         super();
         heading = Heading.random();
         speed = Utilities.rng.nextInt(5) + 1; // Random speed between 1 and 5
+    }
+
+    public int getSpeed() {
+        return speed;
     }
 
     public void update() {
@@ -34,6 +37,23 @@ public class FlockingSimulation extends Simulation {
     public void populate() {
         for (int i = 0; i < 50; i++)
             addAgent(new Bird());
+    }
+
+    public String[] getStats() {
+        int[] speedCounts = new int[6];
+        for (Agent agent : getAgents()) {
+            if (agent instanceof Bird) {
+                Bird bird = (Bird) agent;
+                int speed = bird.getSpeed();
+                speedCounts[speed]++;
+            }
+        }
+
+        String[] stats = new String[5];
+        for (int i = 1; i <= 5; i++) {
+            stats[i - 1] = "Speed " + i + ": " + speedCounts[i];
+        }
+        return stats;
     }
 
     public static void main(String[] args) {
