@@ -18,7 +18,7 @@ public abstract class Agent implements Runnable, Serializable {
                 update();
                 move(1);
             } try {
-                Thread.sleep(200);
+                Thread.sleep(20);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

@@ -8,7 +8,7 @@ public class StatsCommand extends Command {
     }
     public void execute() {
         Simulation s = (Simulation) model;
-        //String message = "#agents = " + s.getAgents()?? + "clock = " + s.getClock();
+        //String message = "#agents = " + s.getAgents()?? + "clock = " + s.getClock()??;
         JOptionPane.showMessageDialog(null, message, "Simulation Stats", JOptionPane.INFORMATION_MESSAGE);
     }
 }
