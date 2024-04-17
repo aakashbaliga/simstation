@@ -7,17 +7,25 @@ public class Simulation extends Model {
     List<Agent> agents;
 
     public void start() {
-
+        for (Agent agent : agents) {
+            agent.start();
+        }
     }
     public void suspend() {
-
+        for (Agent agent : agents) {
+            agent.suspend();
+        }
     }
     public void resume() {
-
+        for (Agent agent : agents) {
+            agent.resume();
+        }
     }
 
     public void stop() {
-
+        for (Agent agent : agents) {
+            agent.stop();
+        }
     }
 
     //Anson Lau

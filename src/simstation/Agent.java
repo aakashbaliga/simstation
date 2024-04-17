@@ -9,7 +9,7 @@ public abstract class Agent implements Runnable, Serializable {
     int yc;
     boolean suspended = false;
     boolean stopped = false;
-    Thread myThread;
+    transient protected Thread myThread;
 
     //Anson Lau
     public void run() {
@@ -26,8 +26,10 @@ public abstract class Agent implements Runnable, Serializable {
     }
 
     public void start() {
-        myThread = new Thread(this);
-        myThread.start();
+        if (myThread == null) {
+            myThread = new Thread(this);
+            myThread.start();
+        }
     }
 
     public void suspend() {
