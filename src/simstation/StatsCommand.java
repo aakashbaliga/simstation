@@ -2,6 +2,7 @@ package simstation;
 import mvc.*;
 import javax.swing.*;
 
+//Anson Lau
 public class StatsCommand extends Command {
     public StatsCommand(Model model) {
         super(model);

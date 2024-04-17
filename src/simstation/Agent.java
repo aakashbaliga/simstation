@@ -4,7 +4,7 @@ import java.io.*;
 
 public abstract class Agent implements Runnable, Serializable {
     String name;
-    double heading;
+    public Heading heading;
     int xc;
     int yc;
     boolean suspended = false;
@@ -47,8 +47,8 @@ public abstract class Agent implements Runnable, Serializable {
     public abstract void update();
 
     public void move(int steps) {
-        double radians = Math.toRadians(heading);
+        double radians = Math.toRadians(heading.ordinal() * 90);
         xc += steps * Math.cos(radians);
-        yc += steps * Math.sin(radians);
+        yc += steps * Math.sin(radians); 
     }
 }
