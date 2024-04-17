@@ -12,6 +12,7 @@ public class SimulationView extends View {
 
     @Override
     protected void paintComponent(Graphics gc) {
+        super.paintComponent(gc);
         //fill
     }
 }
