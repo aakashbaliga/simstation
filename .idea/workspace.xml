@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="434b323b-5b02-4d4f-bda9-38fd932c9ba4" name="Changes" comment="PlagueSimulation.java">
+    <list default="true" id="434b323b-5b02-4d4f-bda9-38fd932c9ba4" name="Changes" comment="Plague and Flocking">
       <change afterPath="$PROJECT_DIR$/src/prisoner/PrisonerDilemmaSimulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/flocking/FlockingSimulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/flocking/FlockingSimulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/plague/PlagueSimulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plague/PlagueSimulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/simstation/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simstation/Agent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/simstation/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simstation/Simulation.java" afterDir="false" />
@@ -166,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713408492441</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Plague and Flocking">
+      <option name="closed" value="true" />
+      <created>1713418114878</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713418114878</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +187,7 @@
     <MESSAGE value="RandomWalkSimulation.java" />
     <MESSAGE value="FlockingSimulation" />
     <MESSAGE value="PlagueSimulation.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="PlagueSimulation.java" />
+    <MESSAGE value="Plague and Flocking" />
+    <option name="LAST_COMMIT_MESSAGE" value="Plague and Flocking" />
   </component>
 </project>
