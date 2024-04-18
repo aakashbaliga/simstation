@@ -39,7 +39,7 @@ public class FlockingSimulation extends Simulation {
             addAgent(new Bird());
     }
 
-    public String[] getStats() {
+    public void getStats() {
         int[] speedCounts = new int[6];
         for (Agent agent : getAgents()) {
             if (agent instanceof Bird) {
@@ -53,7 +53,7 @@ public class FlockingSimulation extends Simulation {
         for (int i = 1; i <= 5; i++) {
             stats[i - 1] = "Speed " + i + ": " + speedCounts[i];
         }
-        return stats;
+        Utilities.inform(stats);
     }
 
     public static void main(String[] args) {

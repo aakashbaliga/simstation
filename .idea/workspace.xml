@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="434b323b-5b02-4d4f-bda9-38fd932c9ba4" name="Changes" comment="FlockingSimulation">
+    <list default="true" id="434b323b-5b02-4d4f-bda9-38fd932c9ba4" name="Changes" comment="PlagueSimulation.java">
+      <change afterPath="$PROJECT_DIR$/src/prisoner/PrisonerDilemmaSimulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flocking/FlockingSimulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/flocking/FlockingSimulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plague/PlagueSimulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plague/PlagueSimulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simstation/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simstation/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simstation/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simstation/Simulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simstation/SimulationView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simstation/SimulationView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,29 +39,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FlockingSimulation.executor": "Run",
-    "Application.RandomWalkSimulation.executor": "Run",
-    "Application.SimulationPanel.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/aakas/IdeaProjects/simstation",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/aakas/IdeaProjects/simstation/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "discord-project",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FlockingSimulation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PlagueSimulation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RandomWalkSimulation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimulationPanel.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aakas/IdeaProjects/simstation&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/aakas/IdeaProjects/simstation/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;discord-application&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="simstation" />
@@ -151,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713391649043</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="PlagueSimulation.java">
+      <option name="closed" value="true" />
+      <created>1713408492441</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713408492441</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +180,7 @@
     <MESSAGE value="StatsCommand with getAgents and getCLock" />
     <MESSAGE value="RandomWalkSimulation.java" />
     <MESSAGE value="FlockingSimulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="FlockingSimulation" />
+    <MESSAGE value="PlagueSimulation.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="PlagueSimulation.java" />
   </component>
 </project>
