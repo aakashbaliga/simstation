@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="434b323b-5b02-4d4f-bda9-38fd932c9ba4" name="Changes" comment="Plague and Flocking">
-      <change afterPath="$PROJECT_DIR$/src/prisoner/PrisonerDilemmaSimulation.java" afterDir="false" />
+    <list default="true" id="434b323b-5b02-4d4f-bda9-38fd932c9ba4" name="Changes" comment="Prisoner">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/plague/PlagueSimulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plague/PlagueSimulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/simstation/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simstation/Agent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/simstation/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simstation/Simulation.java" afterDir="false" />
@@ -63,6 +63,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="prisoner" />
       <recent name="simstation" />
     </key>
   </component>
@@ -172,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713418114878</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Prisoner">
+      <option name="closed" value="true" />
+      <created>1713419190952</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713419190952</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +197,7 @@
     <MESSAGE value="FlockingSimulation" />
     <MESSAGE value="PlagueSimulation.java" />
     <MESSAGE value="Plague and Flocking" />
-    <option name="LAST_COMMIT_MESSAGE" value="Plague and Flocking" />
+    <MESSAGE value="Prisoner" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prisoner" />
   </component>
 </project>

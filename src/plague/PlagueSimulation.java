@@ -5,15 +5,11 @@ import simstation.*;
 
 class Host extends Agent {
     private boolean infected;
-    private final int VIRULENCE;
-    private final int RESISTANCE;
 
-    public Host(int virulence, int resistance) {
+    public Host() {
         super();
-        VIRULENCE = virulence;
-        RESISTANCE = resistance;
         heading = Heading.random();
-        infected = (Utilities.rng.nextInt(100) < virulence && Utilities.rng.nextInt(100) > resistance);
+        infected = false;
     }
 
     public boolean isInfected() {
@@ -54,7 +50,7 @@ public class PlagueSimulation extends Simulation {
 
     public void populate() {
         for (int i = 0; i < 100; i++)
-            addAgent(new Host(, ));
+            addAgent(new Host());
     }
 
     public void getStats() {
